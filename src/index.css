@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   html {
+    @apply h-full
+   }
+   body {
+    @apply h-full font-spaceMono bg-lightBlue font-bold text-base leading-[1.5] text-darkGray
+   }
+   #root {
+    @apply h-full
+   }
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button{
+      -webkit-appearance: none;
+      margin: 0;
+   }
+}
+@layer components {
+   .input {
+      @apply py-4 px-5 bg-lightSmoke rounded-[5px] text-2xl flex items-center
+   }
+   .input input {
+      @apply text-right text-[inherit] outline-none text-darkGreen bg-[transparent] grow
+   }
+   .input::placeholder {
+      @apply text-lightGray
+   }
+}

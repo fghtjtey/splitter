@@ -1,0 +1,5 @@
+export {default as Right} from "./Right/Right"
+export {default as Left} from "./Left/Left"
+export {default as Inputs} from "./Inputs/Inputs"
+export {default as SelectTip} from "./SelectTip/SelectTip"
+export {default as Result} from "./Result/Result"
